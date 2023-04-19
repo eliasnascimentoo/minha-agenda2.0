@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDqIcvEd-9Z6Wi6E2EdAij0Zk2E1tZs54g",
-    authDomain: "minhaagenda-cf8b1.firebaseapp.com",
-    projectId: "minhaagenda-cf8b1",
-    storageBucket: "minhaagenda-cf8b1.appspot.com",
-    messagingSenderId: "218861453314",  
-    appId: "1:218861453314:web:a679844d20febd06e8e71b",
-    measurementId: "G-TZV004WJGV"
+    apiKey: "AIzaSyC8AezFC5qafQldlDAGS55sJotr96qd2Sc",
+  authDomain: "minhaagenda-3e744.firebaseapp.com",
+  projectId: "minhaagenda-3e744",
+  storageBucket: "minhaagenda-3e744.appspot.com",
+  messagingSenderId: "124620889320",
+  appId: "1:124620889320:web:aeea994d5b12f2262efd5d",
+  measurementId: "G-RV4ZX1ZSPF"
   }
 };
 

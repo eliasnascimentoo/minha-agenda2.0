@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>incluirtarefas</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="voltar()">
+        <ion-icon name="arrow-back-circle-outline">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">incluirtarefas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-input [(ngModel)]="tarefas.nome" placeholder="Nome"></ion-input>
+  <ion-input [(ngModel)]="tarefas.tipo" placeholder="tipo"></ion-input>
+  <ion-input [(ngModel)]="tarefas.descricao" placeholder="descricao"></ion-input>
+
+  <ion-button (click)="incluir()">Gravar</ion-button>
+</ion-content>

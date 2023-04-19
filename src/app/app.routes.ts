@@ -17,5 +17,13 @@ export const routes: Routes = [
   {
     path: 'contatos',
     loadComponent: () => import('./paginas/contatos/contatos.page').then( m => m.ContatosPage)
+  },  {
+    path: 'tarefas',
+    loadComponent: () => import('./paginas/tarefas/tarefas.page').then( m => m.TarefasPage)
   },
+  {
+    path: 'incluirtarefas',
+    loadComponent: () => import('./paginas/incluirtarefas/incluirtarefas.page').then( m => m.IncluirtarefasPage)
+  },
+
 ];
